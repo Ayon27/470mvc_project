@@ -31,7 +31,7 @@
                 <h2 class="text-center">Congratulations!</h2>
                 <p class="text-center">Your Registration Has Been Successful!</p>
             </div>
-            <div class="buttons"><a class="btn btn-primary" role="button" href="../hostlogin.php">Back to Log in</a></div>
+            <div class="buttons"><a class="btn btn-primary" role="button" href="../Model/hostlogin.php">Back to Log in</a></div>
         </div>
     </div>
     <script src="../assets/js/jquery.min.js"></script>

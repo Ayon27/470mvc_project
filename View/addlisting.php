@@ -18,9 +18,9 @@ if (empty($_SESSION['stateErr'])) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Host a Place</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
@@ -29,7 +29,7 @@ if (empty($_SESSION['stateErr'])) {
         <h2 class="text-center" style="margin-top: 50px;"><strong>Host</strong> a place</h2>
         <div class="row">
             <div class="col-md-5">
-                <form method="POST" action="Operations/addProcess.php">
+                <form method="POST" action="../Model/addProcess.php">
                     <div class="form-group">
                         <label style="margin-top: 20px;">
                             Name of Your Place:
@@ -138,8 +138,8 @@ if (empty($_SESSION['stateErr'])) {
 </div>
 
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

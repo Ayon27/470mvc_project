@@ -1,5 +1,5 @@
 <?php
-include_once 'Resource/header.php';
+include_once 'Resource/guestHeader.php';
 include_once 'Resource/connection.php';
 ?>
 <html>
@@ -7,15 +7,15 @@ include_once 'Resource/connection.php';
     <title>Profile</title>
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="../assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
             integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
@@ -27,8 +27,8 @@ include_once 'Resource/connection.php';
 
 <div class="team-boxed" style="background-color: #EEF4F7; ">
     <?php
-    $userID = $_SESSION['hostid'];
-    $query = "SELECT * FROM host WHERE id = $userID;";
+    $userID = $_SESSION['id'];
+    $query = "SELECT * FROM guest WHERE id = $userID;";
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) > 0) {
         while ($row = mysqli_fetch_assoc($result)) {
@@ -46,7 +46,7 @@ include_once 'Resource/connection.php';
             <div class="col-md-6 col-lg-4 item"
                  style="background-color: white; margin-top: 70px; border: 1px solid white;
                  border-radius: 5px; box-shadow: 0 0 2px #9f9f9f; max-height: 510px">
-                <div class="box" style="margin-top: 15px"><img class="rounded-circle" src="assets/cnh.png"
+                <div class="box" style="margin-top: 15px"><img class="rounded-circle" src="../assets/cnh.png"
                                                                style="width: 200px; margin-left: 20%;
                                                                margin-top: 10px; margin-bottom: 15px">
                     <h3 class="name" style="text-align: center"><?php echo $data['name']; ?>
@@ -81,14 +81,14 @@ include_once 'Resource/connection.php';
             <div class="col-md-6 col-lg-4 item"></div>
             <div class="col-md-6 col-lg-4 item"
                  style="margin-top: 60px; max-height:100vh; overflow-y: auto;">
-                <h4 class="text-secondary text-center">Your Place's Booking History Will Appear Here</h4>
+                <h4 class="text-secondary text-center">Your Booking History Will Appear Here</h4>
                 <?php
-                $query = "SELECT booking.listing_id, booking.user_id, booking.booking_id, booking.check_in,
+                $query = "SELECT booking.listing_id, booking.booking_id, booking.check_in,
                             booking.check_out, listing.name,
                             listing.hostName, listing.address, listing.state, listing.country
                             from listing 
                             INNER JOIN booking on booking.listing_id = listing.id
-                            WHERE listing.host_id = $userID;";
+                            WHERE booking.user_id = $userID;";
                 $result = mysqli_query($conn, $query);
 
                 if (mysqli_num_rows($result) > 0) {
@@ -98,36 +98,33 @@ include_once 'Resource/connection.php';
                     foreach ($historyDatas
 
                              as $historyData) {
-                        $uid = $historyData['user_id'];
-                        $query1 = "SELECT name FROM guest where id = $uid";
-                        $result1 = mysqli_query($conn, $query1);
-                        while ($row = mysqli_fetch_assoc($result1)) {
-                            ?>
-                            <a href="#s"
-                               style="text-decoration: none; color: black;">
-                                <div class="card" style="margin-bottom: 30px; margin-top: 15px; max-height: 300px;">
-                                    <div class="card-body">
-                                        <h6 class="text-secondary text-center" style="font-size: 14px">Booking#
-                                            <?php echo $historyData['booking_id']; ?>
-                                        </h6>
-                                        <h4 class="card-title text-center"><?php echo $historyData['name']; ?>
-                                        </h4>
-                                        <h6 class="text-muted card-subtitle mb-2 text-center">
-                                            <?php echo $historyData['address'] . ", " . $historyData['state'] . "," . $historyData['country']; ?>
-                                            <p>Booked by: <?php echo $row['name'] ?>
-                                            </p>
-                                        </h6>
-                                        <p class="card-text text-center" style="margin-top: 30px">
-                                            Check-in: <?php echo $historyData['check_in']; ?>
+
+
+                        ?>
+                        <a href="../Model/confirmBooking.php?placeID=<?php echo $historyData['listing_id'] ?>"
+                           style="text-decoration: none; color: black;">
+                            <div class="card" style="margin-bottom: 30px; margin-top: 15px; max-height: 300px;">
+                                <div class="card-body">
+                                    <h6 class="text-secondary text-center" style="font-size: 14px">Booking#
+                                        <?php echo $historyData['booking_id']; ?>
+                                    </h6>
+                                    <h4 class="card-title text-center"><?php echo $historyData['name']; ?>
+                                    </h4>
+                                    <h6 class="text-muted card-subtitle mb-2 text-center">
+                                        <?php echo $historyData['address'] . ", " . $historyData['state'] . "," . $historyData['country']; ?>
+                                        <p>Host: <?php echo $historyData['hostName']; ?>
                                         </p>
-                                        <p class="card-text text-center"> Check-out:
-                                            <?php echo $historyData['check_out']; ?>
-                                        </p>
-                                    </div>
+                                    </h6>
+                                    <p class="card-text text-center" style="margin-top: 30px">
+                                        Check-in: <?php echo $historyData['check_in']; ?>
+                                    </p>
+                                    <p class="card-text text-center"> Check-out:
+                                        <?php echo $historyData['check_out']; ?>
+                                    </p>
                                 </div>
-                            </a>
-                            <?php
-                        }
+                            </div>
+                        </a>
+                        <?php
                     }
                 }
                 mysqli_close($conn);
@@ -153,8 +150,8 @@ include_once 'Resource/connection.php';
 
                 <div class="modal-body">
 
-                    <form id="profileUpdateForm" method="post" action="Operations/updateProfile.php">
-                        <input hidden type="text" name="for" value="host" id="">
+                    <form id="profileUpdateForm" method="post" action="../Model/updateProfile.php">
+                        <input hidden type="text" name="for" value="guest" id="">
                         <div class="form-group">
                             <label>Full Name: </label>
                             <input required type="text" name="name" class="form-control"

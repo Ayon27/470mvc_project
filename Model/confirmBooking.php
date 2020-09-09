@@ -24,11 +24,11 @@ if (empty($placeID)) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/owl.carousel.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../assets/css/animate.css"/>
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css"/>
+    <link rel="stylesheet" href="../assets/css/style.css"/>
     <title>Confirm Booking</title>
 </head>
 
@@ -67,11 +67,11 @@ if ($data['has_pool'] == 1) {
     <div class="container" style="margin-top: 30px">
         <div class="row">
 
-            <form class="form-control" method="post" action="Operations/bookingProcess.php" style="border: 0">
+            <form class="form-control" method="post" action="bookingProcess.php" style="border: 0">
                 <div class="col-lg-10">
                     <div class="single-list-slider owl-carousel" id="sl-slider">
                         <div class="sl-item set-bg">
-                            <img class="img-responsive" src="assets/background.jpg" alt="">
+                            <img class="img-responsive" src="../assets/background.jpg" alt="">
                         </div>
                     </div>
                     <div class>
@@ -144,7 +144,7 @@ if ($data['has_pool'] == 1) {
                                         <input type="hidden" name="checkIn" value="<?php echo $checkIn ?>">
                                         <input type="hidden" name="checkOut" value="<?php echo $checkOut ?>">
                                         <p class="text-center" style="font-size: 24px"> Are you sure?
-                                            <a href="Operations/bookingProcess.php">
+                                            <a href="bookingProcess.php">
                                                 <button class="btn btn-success"
                                                         style="margin-left: 10px; background-color: #7abaff; border: none"
                                                 >
@@ -168,12 +168,12 @@ if ($data['has_pool'] == 1) {
 
 </section>
 
-<script src="assets/js/jquery-3.2.1.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/masonry.pkgd.min.js"></script>
-<script src="assets/js/magnific-popup.min.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="../assets/js/jquery-3.2.1.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
+<script src="../assets/js/masonry.pkgd.min.js"></script>
+<script src="../assets/js/magnific-popup.min.js"></script>
+<script src="../assets/js/main.js"></script>
 </body>
 
 </html>

@@ -59,5 +59,5 @@ if ($continue) {
         mysqli_stmt_execute($statement);
     }
     mysqli_close($conn);
-    header('location: ../lessImportant/placeAdded.php');
+    header('location: ../View/placeAdded.php');
 }

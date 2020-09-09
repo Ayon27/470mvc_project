@@ -26,7 +26,7 @@ unset($_SESSION['stateErr']);
             <h2 class="text-center">Congratulations!</h2>
             <p class="text-center">Your place Has Been Successfully Added!</p>
         </div>
-        <div class="buttons"><a class="btn btn-primary" role="button" href="../hostHome.php">Back to My Listings</a></div>
+        <div class="buttons"><a class="btn btn-primary" role="button" href="../Model/hostHome.php">Back to My Listings</a></div>
     </div>
 </div>
 <script src="assets/js/jquery.min.js"></script>

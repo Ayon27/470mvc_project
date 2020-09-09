@@ -13,8 +13,8 @@ $useID = $_SESSION['id']
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Search</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
@@ -58,7 +58,7 @@ $useID = $_SESSION['id']
                href="confirmBooking.php?placeID=<?php echo $row['id']; ?>&checkIN=<?php echo $check_in; ?>&checkOut=<?php echo $check_out; ?>">
                 <div class="card" style="margin-top: 30px; margin-bottom: 100px">
                     <div class="card-body">
-                        <img class="card-img-top" src="assets/download.png" alt="Card image cap"
+                        <img class="card-img-top" src="../assets/download.png" alt="Card image cap"
                              style="width: 200px; margin-top: 68px; margin-left: 20px" align="left">
 
                         <div class='pt-4'></div>
@@ -96,8 +96,8 @@ $useID = $_SESSION['id']
 ?>
 </div>
 
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

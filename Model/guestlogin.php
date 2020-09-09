@@ -43,14 +43,14 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.min.css">
 </head>
 
 <body>
 <div>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
         <div class="container">
-        <a style="text-decoration: none; color: black; font-size: 16px; border-bottom: 1px solid grey" href="index.php">Home</a></span>
+        <a style="text-decoration: none; color: black; font-size: 16px; border-bottom: 1px solid grey" href="../index.php">Home</a></span>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span
                     class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">

@@ -8,8 +8,8 @@ include_once 'Resource/connection.php';
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 
 <body>
@@ -44,7 +44,7 @@ include_once 'Resource/connection.php';
             }
             ?>
             <div class="card" style="min-width: 300px; max-width: 350px; margin-bottom: 30px">
-            <img class="card-img-top" src="assets/download.png" alt="Card image cap"
+            <img class="card-img-top" src="../assets/download.png" alt="Card image cap"
                  style="width: 100px; margin-left: 35%; margin-top: 20px">
             <div class="card-body">
                 <h5 class="card-title text-center"><?php echo $data['name']; ?></h5>
@@ -60,12 +60,12 @@ include_once 'Resource/connection.php';
                 <li class="list-group-item text-center">Rent: <?php echo $data['price']; ?> / Night</li>
             </ul>
             <div class="card-body">
-                <a href="modifyListing.php?id=<?php echo $data['id'] ?>&name=<?php echo $data['name'] ?>"
+                <a href="../View/modifyListing.php?id=<?php echo $data['id'] ?>&name=<?php echo $data['name'] ?>"
                 class="card-link">
                 <Button class="btn btn-primary" style="background-color: #7abaff; min-width: 45%; border: 0px"> UPDATE
                 </Button>
                 </a>
-                <a href="Operations/delete.php?id=<?php echo $data['id'] ?>&name=<?php echo $data['name'] ?>"
+                <a href="delete.php?id=<?php echo $data['id'] ?>&name=<?php echo $data['name'] ?>"
                 <Button style="min-width: 45%; background-color: #7abaff; border: 0px" class="btn btn-primary"> DELETE
                 </Button>
                 </a>
@@ -77,8 +77,8 @@ include_once 'Resource/connection.php';
         ?>
     </div>
 </div>
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 </html>

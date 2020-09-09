@@ -34,7 +34,7 @@ session_destroy();
     <div class="row" style="margin-top: 100px">
         <div class="col-md-2"></div>
         <div class="col-md-4">
-            <a href="guestlogin.php" style="text-decoration: none">
+            <a href="Model/guestlogin.php" style="text-decoration: none">
             <div class="login-clean" style="background-color: #D5D7DE">
                 <form method="post" action="login">
                     <h2 class="text-center" >I am a Guest</h2>
@@ -46,7 +46,7 @@ session_destroy();
         </div>
 
         <div class="col-md-4">
-            <a href="hostlogin.php" style="text-decoration: none">
+            <a href="Model/hostlogin.php" style="text-decoration: none">
             <div class="login-clean" style="background-color: #7E7E9B">
                 <form method="post" action="login">
                     <h2 class="text-center">I am a Host</h2>
