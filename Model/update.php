@@ -1,6 +1,6 @@
 <?php
-include_once '../Resource/functions.php';
-include_once '../Resource/connection.php';
+include_once '../Resource/commonFunctions.php';
+include_once '../Resource/connectionController.php';
 $placeID = $_POST['id'];
 
 $placeName = preg_replace('/\s+/', ' ', $_POST['name']);

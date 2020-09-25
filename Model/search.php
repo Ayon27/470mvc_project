@@ -1,5 +1,5 @@
 <?php include_once 'Resource/guestHeader.php';
-include_once 'Resource/connection.php';
+include_once 'Resource/connectionController.php';
 $key = $_GET['key'];
 $check_in = $_GET['cinDate'];
 $check_out = $_GET['coutDate'];

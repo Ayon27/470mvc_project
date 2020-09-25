@@ -28,7 +28,7 @@ header('location: hosthome.php');
 </head>
 <body>
 <?php include_once 'Resource/header.php';
-include_once 'Resource/connection.php';
+include_once 'Resource/connectionController.php';
 ?>
 
 <div>

@@ -1,5 +1,5 @@
 <?php
-include_once '../Resource/connection.php';
+include_once '../Resource/connectionController.php';
 
 session_start();
 

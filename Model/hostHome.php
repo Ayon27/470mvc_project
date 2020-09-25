@@ -1,5 +1,5 @@
 <?php include_once 'Resource/header.php';
-include_once 'Resource/connection.php';
+include_once 'Resource/connectionController.php';
 ?>
 <!DOCTYPE html>
 <html>
