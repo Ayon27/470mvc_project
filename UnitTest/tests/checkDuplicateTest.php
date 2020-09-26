@@ -14,6 +14,6 @@ class checkDuplicateTest extends TestCase
 
     public function testCheckDuplicateFunction() //will return true if duplicate has been found
     {
-        $this->assertFalse($this->checkDuplicate->duplicateExists("user", "email", "bob@buailder.com", "connection String"),);
+        $this->assertTrue($this->checkDuplicate->duplicateExists("user", "email", "bob@builder.com", "connection String"),);
     }
 }

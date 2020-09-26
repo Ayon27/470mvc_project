@@ -7,7 +7,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/UnitTest/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -77,20 +77,20 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ayn\Desktop\470mvc_project\UnitTest\App\Mock" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ayn\Desktop\470mvc_project\UnitTest\App\Models" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ayn\Desktop\470mvc_project\UnitTest\App\Mock" />
+    </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.checkDuplicateTest">
+  <component name="RunManager" selected="PHPUnit.loginControllerTest">
     <configuration name="checkDuplicateTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="checkDuplicateTest" file="$PROJECT_DIR$/UnitTest/tests/checkDuplicateTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="commonFunctionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="commonFunctionTest" file="$PROJECT_DIR$/UnitTest/tests/checkUserInfoTest.php" scope="Class" />
+    <configuration name="checkUserInfoTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="checkUserInfoTest" file="$PROJECT_DIR$/UnitTest/tests/checkUserInfoTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="connectionControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -101,17 +101,17 @@
       <TestRunner class="loginControllerTest" file="$PROJECT_DIR$/UnitTest/tests/loginControllerTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="testCheckDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="testCheckDuplicate" file="$PROJECT_DIR$/UnitTest/tests/checkDuplicateTest.php" scope="Class" />
+    <configuration name="loginControllerTest.testcheckEmailforInvalidValues" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="loginControllerTest" file="$PROJECT_DIR$/UnitTest/tests/loginControllerTest.php" method="testcheckEmailforInvalidValues" scope="Method" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.checkDuplicateTest" />
-        <item itemvalue="PHPUnit.testCheckDuplicate" />
         <item itemvalue="PHPUnit.loginControllerTest" />
-        <item itemvalue="PHPUnit.commonFunctionTest" />
         <item itemvalue="PHPUnit.connectionControllerTest" />
+        <item itemvalue="PHPUnit.loginControllerTest.testcheckEmailforInvalidValues" />
+        <item itemvalue="PHPUnit.checkUserInfoTest" />
+        <item itemvalue="PHPUnit.checkDuplicateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +127,9 @@
       <workItem from="1601055784767" duration="46000" />
       <workItem from="1601055837281" duration="82000" />
       <workItem from="1601055927445" duration="6818000" />
-      <workItem from="1601127319133" duration="708000" />
+      <workItem from="1601127319133" duration="912000" />
+      <workItem from="1601140992196" duration="62000" />
+      <workItem from="1601141063278" duration="4276000" />
     </task>
     <servers />
   </component>
@@ -135,6 +137,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="711" y="349" key="#Notifications" timestamp="1601141352801">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="711" y="349" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1601141352801" />
     <state x="674" y="167" key="#PHP" timestamp="1601044014761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -147,6 +153,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="714" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601055916994" />
+    <state x="557" y="128" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601128023400">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="557" y="128" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601128023400" />
     <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601043985009">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -159,22 +169,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="851" y="362" width="440" height="483" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601055915403" />
-    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1601064075264">
+    <state width="938" height="227" key="GridCell.Tab.0.bottom" timestamp="1601145401913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
-    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1601064075264">
+    <state width="938" height="227" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601145401913" />
+    <state width="938" height="227" key="GridCell.Tab.0.center" timestamp="1601145401913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
-    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1601064075264">
+    <state width="938" height="227" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601145401913" />
+    <state width="938" height="227" key="GridCell.Tab.0.left" timestamp="1601145401913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
-    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1601064075264">
+    <state width="938" height="227" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601145401913" />
+    <state width="938" height="227" key="GridCell.Tab.0.right" timestamp="1601145401913">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
+    <state width="938" height="227" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601145401913" />
     <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1601055776436">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

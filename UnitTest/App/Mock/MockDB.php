@@ -48,12 +48,12 @@ class MockDB
             foreach ($value as $sub_key => $sub_value) {
                 if ($sub_value == $item) {
                     $dup_found = true;
-                    echo "Duplicate of" . $item . "has been found";
+                    echo "Duplicate of " . $item . " has been found";
                     break;
                 }
             }
         }
-        echo $dup_found;
+        //echo $dup_found;
         return $dup_found;
     }
 

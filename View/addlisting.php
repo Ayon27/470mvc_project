@@ -143,4 +143,11 @@ if (empty($_SESSION['stateErr'])) {
 </body>
 
 </html>
+<?php
 
+DBConnection::class;
+$loginController = new loginController();
+
+$loginController->setEmail("as");
+$loginController->getEmail();
+$loginController->checkEmail();

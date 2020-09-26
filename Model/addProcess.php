@@ -1,6 +1,6 @@
 <?php
-include_once '../Resource/checkUserInfo.php';
-include_once '../Resource/connectionController.php';
+include_once '../Controller/userController.php';
+include_once '../Controller/connectionController.php';
 session_start();
 $_SESSION['nameErr'];
 $_SESSION['countryErr'];
