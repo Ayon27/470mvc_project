@@ -1,5 +1,5 @@
 <?php
-include_once '../Resource/commonFunctions.php';
+include_once '../Resource/checkUserInfo.php';
 include_once '../Resource/connectionController.php';
 session_start();
 $_SESSION['nameErr'];

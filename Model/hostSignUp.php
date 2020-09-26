@@ -1,6 +1,6 @@
 <?php
 include_once 'Resource/connectionController.php';
-include_once 'Resource/commonFunctions.php';
+include_once 'Resource/checkUserInfo.php';
 
 global $emailMsg;
 global $contactNoMsg;

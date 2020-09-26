@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="335522a8-4278-4a4f-87f7-49a76a933788" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/UnitTest/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/composer" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/UnitTest/vendor/phpdocumentor/reflection-docblock" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1i0NqRM90o2kfk3eQamwddpPaYJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UnitTest/App/Mock" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ayn\Desktop\470mvc_project\UnitTest\App\Mock" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ayn\Desktop\470mvc_project\UnitTest\App\Models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.checkDuplicateTest">
+    <configuration name="checkDuplicateTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="checkDuplicateTest" file="$PROJECT_DIR$/UnitTest/tests/checkDuplicateTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="commonFunctionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="commonFunctionTest" file="$PROJECT_DIR$/UnitTest/tests/commonFunctionTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="connectionControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="connectionControllerTest" file="$PROJECT_DIR$/UnitTest/tests/connectionControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loginControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="loginControllerTest" file="$PROJECT_DIR$/UnitTest/tests/loginControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testCheckDuplicate" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="testCheckDuplicate" file="$PROJECT_DIR$/UnitTest/tests/checkDuplicateTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.checkDuplicateTest" />
+        <item itemvalue="PHPUnit.testCheckDuplicate" />
+        <item itemvalue="PHPUnit.loginControllerTest" />
+        <item itemvalue="PHPUnit.commonFunctionTest" />
+        <item itemvalue="PHPUnit.connectionControllerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="335522a8-4278-4a4f-87f7-49a76a933788" name="Default Changelist" comment="" />
+      <created>1601040740767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601040740767</updated>
+      <workItem from="1601040741842" duration="11956000" />
+      <workItem from="1601055784767" duration="46000" />
+      <workItem from="1601055837281" duration="82000" />
+      <workItem from="1601055927445" duration="6818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="167" key="#PHP" timestamp="1601044014761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="674" y="167" key="#PHP/0.0.1920.1050@0.0.1920.1050" timestamp="1601044014761" />
+    <state x="540" y="180" key="#Test_Frameworks" timestamp="1601044055733">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="540" y="180" key="#Test_Frameworks/0.0.1920.1050@0.0.1920.1050" timestamp="1601044055733" />
+    <state x="714" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601055916994">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="714" y="394" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601055916994" />
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601043985009">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601043985009" />
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1601060373727">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="690" y="280" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601060373727" />
+    <state x="851" y="362" width="440" height="483" key="FileChooserDialogImpl" timestamp="1601055915403">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="851" y="362" width="440" height="483" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1601055915403" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1601064075264">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1601064075264">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1601064075264">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1601064075264">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601064075264" />
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom" timestamp="1601055776436">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1601055776436" />
+    <state width="1877" height="371" key="GridCell.Tab.1.center" timestamp="1601055776436">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1601055776436" />
+    <state width="1877" height="371" key="GridCell.Tab.1.left" timestamp="1601055776436">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1601055776436" />
+    <state width="1877" height="371" key="GridCell.Tab.1.right" timestamp="1601055776436">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="371" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601055776436" />
+    <state x="721" y="248" key="NewPhpClassDialog" timestamp="1601060508752">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="721" y="248" key="NewPhpClassDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1601060508752" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1601055888383">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1601055888383" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1601058492598">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601058492598" />
+    <state x="623" y="227" key="search.everywhere.popup" timestamp="1601045641428">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1601045641428" />
+  </component>
+</project>

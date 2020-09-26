@@ -1,6 +1,6 @@
 <?php
 include_once 'Resource/connectionController.php';
-include_once 'Resource/commonFunctions.php';
+include_once 'Resource/checkUserInfo.php';
 
 session_start();
 global $invalidLoginMsg;
