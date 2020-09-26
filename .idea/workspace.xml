@@ -90,7 +90,7 @@
       <method v="2" />
     </configuration>
     <configuration name="commonFunctionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="commonFunctionTest" file="$PROJECT_DIR$/UnitTest/tests/commonFunctionTest.php" scope="Class" />
+      <TestRunner class="commonFunctionTest" file="$PROJECT_DIR$/UnitTest/tests/checkUserInfoTest.php" scope="Class" />
       <method v="2" />
     </configuration>
     <configuration name="connectionControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -127,6 +127,7 @@
       <workItem from="1601055784767" duration="46000" />
       <workItem from="1601055837281" duration="82000" />
       <workItem from="1601055927445" duration="6818000" />
+      <workItem from="1601127319133" duration="708000" />
     </task>
     <servers />
   </component>

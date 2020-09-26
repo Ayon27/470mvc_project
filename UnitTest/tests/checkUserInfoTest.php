@@ -3,7 +3,7 @@
 use App\Models\checkUserInfo;
 use PHPUnit\Framework\TestCase;
 
-class commonFunctionTest extends TestCase
+class checkUserInfoTest extends TestCase
 {
     private $checkUserInfo;
 
